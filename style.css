@@ -1,0 +1,1058 @@
+*,
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+}
+
+[class*="container-"] {
+  float: left;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+}
+.ul-navbar {
+  background-color: #d9d9d9;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+}
+.li-navbar {
+  list-style-type: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px 30px;
+}
+.li-navbar:hover {
+  transition: 0.5 ease-in-out;
+  transition-delay: 0.3;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+}
+.a-navbar {
+  color: black;
+  font-family: poppins;
+  text-decoration: none;
+}
+.a-navbar:hover {
+  color: rgb(255, 255, 255);
+  font-family: poppins;
+  text-decoration: none;
+}
+.judul-konten h1 {
+  font-family: poppins;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100px;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-kiri {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-tentara {
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-kiri-bawah {
+  margin-top: 20px;
+  width: auto;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  flex-direction: row;
+}
+.container-kiri-bawah-kiri {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-petani {
+  background-color: none;
+  margin-bottom: 10px;
+}
+.container-pramugari {
+  display: relative;
+  background-color: none;
+}
+.container-fotografer {
+  background-color: none;
+}
+.container-kiri-bawah-kanan {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+}
+
+.container-kanan {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.container-kanan-atas {
+  margin-bottom: 20px;
+}
+.container-kanan-3 {
+  background-color: #f4f4f4;
+  width: 500px;
+  height: 392px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-kanan-bawah {
+  background-color: none;
+}
+.container-pembalap-astronout {
+  background-color: none;
+  width: 500px;
+  height: 181px;
+}
+.tentara {
+  display: flex;
+  background: #d5ffdd;
+  border-radius: 20px;
+  width: 500px;
+  height: 180px;
+}
+.text-tentara h2 {
+  margin-top: 15px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
+.tentara p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  margin-bottom: 20px;
+}
+.tentara button {
+  width: 240px;
+  height: 37px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-color: #399349;
+  border: none;
+  color: white;
+  font-size: 20px;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  bottom: 10px;
+}
+.tentara img {
+  position: relative;
+  bottom: -2.5px;
+  margin-top: -90px;
+  width: 230px;
+  height: 230px;
+  top: 42px;
+}
+/* Petani */
+.petani {
+  background: #fff4dc;
+  border-radius: 20px;
+  width: 235px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.petani button {
+  width: 173px;
+  height: 37px;
+  border-radius: 15px;
+  background-color: #e29a00;
+  border: none;
+  color: white;
+  font-size: 20px;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  top: 6px;
+  z-index: 1;
+}
+.petani img {
+  width: 173.7px;
+  height: 170px;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  z-index: 0;
+  top: 46px;
+}
+/* pramugari */
+.pramugari {
+  background: #ffced7;
+  border-radius: 20px;
+  width: 235px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.pramugari img {
+  width: 173.7px;
+  height: 170px;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  z-index: 0;
+  top: 46px;
+}
+.pramugari button {
+  width: 173px;
+  height: 37px;
+  border-radius: 15px;
+  background-color: #ff5573;
+  border: none;
+  color: white;
+  font-size: 20px;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+  top: 6px;
+  z-index: 1;
+}
+/* Fotografer */
+.fotografer {
+  width: 230px;
+  height: 392px;
+  border-radius: 20px;
+  background-color: #e2f2ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fotografer img {
+  width: 160px;
+  height: 165px;
+}
+.text-fotografer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text-fotografer button {
+  width: 173px;
+  height: 37px;
+  border-radius: 15px;
+  background-color: #3279af;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.text-fotografer h2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.text-fotografer p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  padding: 10 50 10 50;
+}
+/* Dokter */
+.dokter {
+  width: 423px;
+  height: 96px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d8d6c1;
+  display: flex;
+  flex-direction: row;
+}
+.dokter h2 {
+  margin-top: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.dokter img {
+  margin-top: 12px;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+}
+.text-dokter button {
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d8d6c1;
+  color: white;
+}
+/* Pilot */
+.pilot {
+  width: 423px;
+  height: 96px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d8d6c1;
+  display: flex;
+  flex-direction: row;
+}
+.pilot h2 {
+  margin-top: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.pilot img {
+  margin-top: 12px;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+}
+.text-pilot button {
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d8d6c1;
+  color: white;
+}
+/* Ilmuan */
+.ilmuan {
+  width: 423px;
+  height: 96px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d8d6c1;
+  display: flex;
+  flex-direction: row;
+}
+.ilmuan h2 {
+  margin-top: 28px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.ilmuan img {
+  margin-top: 12px;
+  margin-left: 30px;
+  width: 70px;
+  height: 70px;
+}
+.text-ilmuan button {
+  width: 149px;
+  height: 22px;
+  border-radius: 10px;
+  border: none;
+  background-color: #d8d6c1;
+  color: white;
+}
+/* Pembalap */
+.pembalap {
+  background: #f4f4f4;
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.pembalap img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 25px;
+}
+.pembalap h2 {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.text-pembalap button {
+  margin-bottom: 25px;
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #d8d6c1;
+  font-family: Poppins;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+}
+/* Astronout */
+.astronout {
+  background: #f4f4f4;
+  border-radius: 20px;
+  width: 100%;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.astronout img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 25px;
+}
+.astronout h2 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+.text-astronout button {
+  margin-bottom: 25px;
+  width: 100px;
+  height: 55px;
+  border-radius: 10px;
+  background-color: #d8d6c1;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: white;
+  text-align: center;
+}
+
+@media (min-width: 360px) and (max-width: 424px),
+  (min-width: 425px) and (max-width: 1279px) {
+  [class*="container-"] {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: none;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .navbar {
+    background-color: blueviolet;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 10;
+  }
+  .ul-navbar {
+    background-color: #d9d9d9;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .li-navbar {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .li-navbar:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.5 ease-in-out;
+    transition-delay: 0.3;
+    border-radius: 8px;
+  }
+  .a-navbar {
+    color: black;
+    font-family: poppins;
+    text-decoration: none;
+  }
+  .a-navbar:hover {
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+    text-decoration: none;
+  }
+  .judul-konten h1 {
+    font-size: 32px;
+    margin-top: 30px;
+    font-family: poppins;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .container-utama {
+    background-color: none;
+  }
+  .container-kiri {
+    margin-top: -60px;
+    background-color: none;
+    width: 100%;
+  }
+  .container-kiri-atas {
+    background-color: none;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-kiri-atas-tentara {
+    background-color: none;
+    width: 100%;
+  }
+  .container-tentara {
+    background-color: none;
+    width: 100%;
+  }
+  .container-kiri-bawah {
+    background-color: none;
+  }
+  .container-kiri-bawah-kiri {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+  }
+  .container-petani {
+    background-color: none;
+    padding-left: 0px;
+    padding-top: 0x;
+  }
+  .container-pramugari {
+    background-color: none;
+    padding-left: 0px;
+    padding-top: 0x;
+  }
+  .container-fotografer {
+    background-color: none;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .container-kiri-bawah-kanan {
+    margin: 0;
+    background-color: none;
+  }
+
+  .container-kanan {
+    margin: 25px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-kanan-atas {
+    margin-bottom: 5px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container-kanan-3 {
+    margin-bottom: 0;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-kanan-3-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container-kanan-bawah {
+    width: auto;
+    background-color: none;
+  }
+  .container-pembalap-astronout {
+    display: flex;
+    flex-direction: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+  }
+  /* Tentara */
+  .tentara {
+    display: flex;
+    flex-direction: column;
+    background: #d5ffdd;
+    border-radius: 20px;
+    width: 289px;
+    height: 299px;
+    margin-top: 100px;
+    left: 0;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .tentara img {
+    position: relative;
+    bottom: -2.5px;
+    margin-top: -80px;
+    width: 230px;
+    height: 230px;
+    top: 80px;
+  }
+  .text-tentara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  .text-tentara h2 {
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+  }
+  .tentara p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+  }
+  .tentara button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #399349;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    bottom: 160px;
+    z-index: 1;
+  }
+  /* Petani */
+  .petani {
+    background: #fff4dc;
+    border-radius: 20px;
+    width: 288.53px;
+    height: 221px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .petani button {
+    width: 212.41px;
+    height: 45.43px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e29a00;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+  }
+  .petani img {
+    width: 213.26px;
+    height: 208.72px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    z-index: 0;
+    top: 54px;
+  }
+  /* Pramugari */
+  .pramugari {
+    background: #ffced7;
+    border-radius: 20px;
+    width: 288.53px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .pramugari button {
+    width: 212.75px;
+    height: 49.3px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ff5573;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+  }
+  .pramugari img {
+    width: 209.06px;
+    height: 226.53px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    z-index: 0;
+    top: 58px;
+  }
+  /* Fotografer */
+  .fotografer {
+    display: flex;
+    flex-direction: column;
+    background: #e2f2ff;
+    border-radius: 20px;
+    width: 289px;
+    height: 299px;
+    margin-top: 50px;
+    left: 0;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .text-fotografer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0px;
+  }
+  .text-fotografer h2 {
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+  }
+  .text-fotografer p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+  }
+  .fotografer button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #3279af;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    bottom: 160px;
+    z-index: 1;
+  }
+
+  /* Dokter */
+  .dokter {
+    margin-bottom: 25px;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    background-color: #e9e8e2;
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .dokter h2 {
+    margin-top: 0;
+    font-family: Poppins;
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    text-align: left;
+    display: none;
+  }
+  .text-dokter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-dokter button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #cac8b3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: -55px;
+    z-index: 1;
+  }
+  .dokter img {
+    margin-top: 8px;
+    margin-left: 40px;
+    width: 213px;
+    height: 213px;
+  }
+  /* Pilot */
+  .pilot {
+    margin-bottom: 25px;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    background-color: #e9e8e2;
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .pilot h2 {
+    margin-top: 0;
+    font-family: Poppins;
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    text-align: left;
+    display: none;
+  }
+  .text-pilot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-pilot button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #cac8b3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: -55px;
+    z-index: 1;
+  }
+  .pilot img {
+    margin-top: 8px;
+    margin-left: 40px;
+    width: 213px;
+    height: 213px;
+  }
+
+  /* Ilmuan */
+  .ilmuan {
+    margin-bottom: 25px;
+    width: 288.53px;
+    height: 221px;
+    border-radius: 20px;
+    background-color: #e9e8e2;
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .ilmuan h2 {
+    margin-top: 0;
+    font-family: Poppins;
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    text-align: left;
+    display: none;
+  }
+  .text-ilmuan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-ilmuan button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #cac8b3;
+    border: none;
+    color: white;
+    font-size: 20px;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: -55px;
+    z-index: 1;
+  }
+  .ilmuan img {
+    margin-top: 8px;
+    margin-left: 40px;
+    width: 213px;
+    height: 213px;
+  }
+  /* Pembalap */
+  .pembalap {
+    display: flex;
+    flex-direction: column;
+    background: #ffdbc5;
+    border-radius: 20px;
+    width: 288.53px;
+    height: 222px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .text-pembalap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-pembalap h2 {
+    margin-top: 0px;
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    display: none;
+  }
+  .text-pembalap p {
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    margin-bottom: 0;
+  }
+  .pembalap button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #e36415;
+    border: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -58px;
+  }
+  .pembalap img {
+    margin-top: 11px;
+    margin-bottom: 0px;
+    width: 213px;
+    height: 213px;
+  }
+  /* Astronout */
+  .astronout {
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+    background: #8fc5ed;
+    border-radius: 20px;
+    width: 288.53px;
+    height: 222px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .text-astronout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .text-astronout h2 {
+    margin-top: 0;
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    display: none;
+  }
+  .text-astronout p {
+    font-size: 0;
+    font-weight: 0;
+    line-height: 0;
+    letter-spacing: 0;
+    margin-bottom: 0;
+  }
+  .astronout button {
+    width: 212.41px;
+    height: 45.43px;
+    border-radius: 15px;
+    background-color: #275e87;
+    border: none;
+    color: white;
+    font-size: 20px;
+  }
+  .astronout img {
+    width: 213px;
+    height: 213px;
+  }
+}
